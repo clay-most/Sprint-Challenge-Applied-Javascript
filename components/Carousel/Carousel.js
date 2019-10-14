@@ -10,10 +10,23 @@
 /* HTML:
   <div class="carousel">
     <div class="left-button"> < </div>
-    <img src="./assets/carousel/mountains.jpeg" />
-    <img src="./assets/carousel/computer.jpeg" />
-    <img src="./assets/carousel/trees.jpeg" />
-    <img src="./assets/carousel/turntable.jpeg" />
+    <img src= />
+    <img src= />
+    <img src= />
+    <img src />
     <div class="right-button"> > </div>
   </div>
 */
+
+const container = document.querySelector(".carousel-container");
+
+const srcs = [
+  "./assets/carousel/mountains.jpeg",
+  "./assets/carousel/computer.jpeg",
+  "./assets/carousel/trees.jpeg",
+  "./assets/carousel/turntable.jpeg"
+];
+
+function carousel (){
+  
+}
